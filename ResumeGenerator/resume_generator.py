@@ -6,10 +6,10 @@ def load_data(filename):
         with open(filename, 'r') as file:
             return json.load(file)
     except FileNotFoundError:
-        print("Error: Template file not found.")
+        print("Error: Template file not found..")
         return None
     except json.JSONDecodeError:
-        print("Error: Failed to parse JSON.")
+        print("Error: Failed to parse JSON..")
         return None
 
 def generate_resume(data):
