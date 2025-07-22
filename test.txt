@@ -1,0 +1,11 @@
+Teli Og
+teli@email.com | 081-123-4567
+----------------------------------------
+Education:
+- B.Sc. in Computer Science from KC University (2005)
+
+Experience:
+- Software Engineer at KCSystems (2007–2009)
+
+Skills:
+Python, Git, Hubs, Hacks
