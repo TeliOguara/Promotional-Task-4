@@ -1,0 +1,21 @@
+{
+  "name": "Teli Og",
+  "email": "teli@email.com",
+  "phone": "081-123-4567",
+  "education": [
+    {
+      "degree": "B.Sc.",
+      "field": "Computer Science",
+      "school": "KC University",
+      "year": "2005"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Software Engineer",
+      "company": "KCSystems",
+      "years": "2007–2009"
+    }
+  ],
+  "skills": ["Python", "Git", "Hubs", "Hacks"]
+}
