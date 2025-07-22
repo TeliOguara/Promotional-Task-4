@@ -1,0 +1,12 @@
+[
+    {
+        "name": "teli",
+        "subjects_scores": {
+            "english": 76.0,
+            "maths": 56.0,
+            "biology": 87.0
+        },
+        "average": 73.0,
+        "grade": "C"
+    }
+]
