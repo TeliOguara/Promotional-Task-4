@@ -8,6 +8,11 @@ import os
 import shutil
 
 def organize_files(folder_path):
+    if not os.path.exists(folder_path):
+        print("The specified folder does not exist.")
+        return
+    
+    
     try:
         files = os.listdir(folder_path)
         for file in files:
@@ -29,6 +34,8 @@ def organize_files(folder_path):
 
         print("Files organized successfully.")
 
+    except PermissionError:
+        print("Permission denied while accessing the folder.")
     except Exception as e:
         print(f"An error occurred: {e}")
 
